@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: white;
+  background-color: #0E1117;
+}
+
+.grid-row {
+  display: grid;
+  height: 10px;
+  grid-template-columns: repeat(52, 10px); /* 52 weeks for a year */
+  gap: 4px;
+}
