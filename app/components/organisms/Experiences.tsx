@@ -33,7 +33,7 @@ export default function Experiences({ sectionRef }: ExperiencesProps) {
                             <div className='flex h-full flex-col justify-center items-end'>
                                 <p className='text-[0.6rem]'>École</p>
                                 <p className='text-[0.6rem]'>Stage</p>
-                                <p className='text-[0.6rem]'>Pro.</p>
+                                <p className='text-[0.6rem]'>Pro</p>
                             </div>
                             <div className="">
                                 <div className='flex flex-col overflow-x-auto gap-1'> {/* Set the width and overflow */}
@@ -41,7 +41,7 @@ export default function Experiences({ sectionRef }: ExperiencesProps) {
                                         {theData[index]?.content[0].map((data, idx2) => (
                                             <div
                                                 key={`year-${year}-week-1-${idx2}`}
-                                                className={`${data === 3 ? "bg-blue-multitel" : data === 0 && "bg-[#202732]"} rounded-sm`}
+                                                className={`${data === 2 ? "bg-blue-enib" : data === 0 && "bg-[#202732]"} rounded-sm`}
                                             />
                                         ))}
                                     </div>
@@ -49,7 +49,16 @@ export default function Experiences({ sectionRef }: ExperiencesProps) {
                                         {theData[index]?.content[1].map((data, idx3) => (
                                             <div
                                                 key={`year-${year}-week-2-${idx3}`}
-                                                className={`${data === 0 ? "bg-[#202732]" : data === 1 ? "bg-red-alten" : data === 2 && "bg-blue-enib"} rounded-sm`}
+                                                className={`${data === 0 ? "bg-[#202732]" : data === 3 && "bg-blue-multitel"} rounded-sm`}
+                                            />
+                                        ))}
+
+                                    </div>
+                                    <div className="grid-row">
+                                        {theData[index]?.content[2].map((data, idx3) => (
+                                            <div
+                                                key={`year-${year}-week-2-${idx3}`}
+                                                className={`${data === 0 ? "bg-[#202732]" : data === 1 ? "bg-red-alten" : data === 3 && "bg-blue-multitel"} rounded-sm`}
                                             />
                                         ))}
 

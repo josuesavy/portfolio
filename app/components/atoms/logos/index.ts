@@ -1,6 +1,7 @@
-export { Figma } from "./Figma";
+export { Symfony } from "./Symfony"
+export { Codeigniter } from "./Codeigniter"
+export { Laravel } from "./Laravel"
 export { NextJS } from "./NextJS"
 export { NodeJS } from "./NodeJS"
 export { ReactJS } from "./ReactJS"
-export { Storybook } from "./Storybook"
 export { Tailwind } from "./Tailwind"

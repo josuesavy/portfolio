@@ -41,7 +41,7 @@ export default function Home() {
               <p className='mt-4 sm:text-base text-sm '>
                 Ingénieur diplômé de l'ENIB, Josué travaille chez ALTEN depuis septembre 2022 en tant qu'ingénieur d'applications, se spécialisant dans le développement web Full-Stack. Il possède notamment des compétences solide et certifié en développement logiciel avec les langages C/C++ , en C embarqué, en C#.NET.
               </p>
-              <p className='mt-4 mb-16 sm:text-base text-sm '>
+              <p className='mb-16 sm:text-base text-sm '>
                 Josué participe actuellement au développement d'une plateforme de digitalisation des données financière des projets satellite européens. Ce projet lui a permis de développer des compétences en validation et début de production.
               </p>
               <Stack />

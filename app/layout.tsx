@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Jérémie Barrière - Développeur fullstack',
-  description: 'Jérémie Barrière, développeur fullstack passionné et expérimenté. Spécialisé dans les technologies modernes, je crée des applications web performantes et évolutives. Découvrez mes projets, mon parcours et mes compétences.',
+  title: 'Josué Savy - Développeur Full-Stack',
+  description: 'Ingénieur diplômé de l\'ENIB, Josué travaille chez ALTEN depuis septembre 2022 en tant qu\'ingénieur d\'applications, se spécialisant dans le développement Full-Stack.',
 }
 
 export default function RootLayout({

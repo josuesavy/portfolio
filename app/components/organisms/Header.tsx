@@ -16,7 +16,7 @@ export function Header({ handleTabClick, tab }: Props) {
         <header className='mb-8 w-full  bg-black'>
             <div className='flex items-center px-4 justify-between w-full'>
                 <div className='w-full h-[56px] pt-4 sm:pb-2 pb-4 flex items-center gap-2'>
-                    <Image width={32} height={32} className='rounded-full bg-black border border-gray-border' src="/logo.webp" alt="logo-josue-savy" />
+                    <Image width={32} height={32} quality={100} className='rounded-full bg-black border border-gray-border' src="/logo.webp" alt="logo-josue-savy" />
                     <h1 className='font-medium'>Josué Savy</h1>
                 </div>
                 {/* <SunIcon /> */}

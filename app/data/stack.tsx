@@ -1,6 +1,18 @@
-import { Figma, NextJS, NodeJS, ReactJS, Storybook, Tailwind } from "../components/atoms/logos";
+import { Symfony, Codeigniter, Laravel, NextJS, NodeJS, ReactJS, Tailwind } from "../components/atoms/logos";
 
 export const StackData = [
+    {
+        logo: <Symfony/>,
+        name: 'Symfony',
+    },
+    {
+        logo: <Codeigniter/>,
+        name: 'Codeigniter',
+    },
+    {
+        logo: <Laravel/>,
+        name: 'Laravel',
+    },
     {
         logo: <ReactJS/>,
         name: 'ReactJS',
@@ -16,13 +28,5 @@ export const StackData = [
     {
         logo: <Tailwind/>,
         name: 'TailwindCSS',
-    },
-    {
-        logo: <Storybook/>,
-        name: 'Storybook',
-    },
-    {
-        logo: <Figma/>,
-        name: 'Figma',
     },
 ]
