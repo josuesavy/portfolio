@@ -38,11 +38,8 @@ export default function Home() {
               </p>
               <p className='text-4xl mt-4 uppercase font-semibold'>Bienvenue sur <span className='text-orange'>mon portfolio</span></p>
               <Separator />
-              <p className='mt-4 sm:text-base text-sm '>
-                Ingénieur diplômé de l'ENIB, Josué travaille chez ALTEN depuis septembre 2022 en tant qu'ingénieur d'applications, se spécialisant dans le développement web Full-Stack. Il possède notamment des compétences solide et certifié en développement logiciel avec les langages C/C++ , en C embarqué, en C#.NET.
-              </p>
-              <p className='mb-16 sm:text-base text-sm '>
-                Josué participe actuellement au développement d'une plateforme de digitalisation des données financière des projets satellite européens. Ce projet lui a permis de développer des compétences en validation et début de production.
+              <p className='mt-4 mb-16 sm:text-base text-sm '>
+              Ingénieur Généraliste Système diplômé, avec deux ans d&apos;expérience en développement full stack chez Airbus Defense and Space, j&apos;interviens sur une large gamme de projets techniques en alliant expertise logicielle et vision transverse des technologies, infrastructures et processus industriels. Passionné par l&apos;innovation et la transformation digitale, j’adopte une approche rigoureuse, agile et collaborative. Curieux et en constante quête d’apprentissage, je cherche à relever de nouveaux défis et à développer en continu mes compétences pour concevoir des solutions toujours plus performantes.
               </p>
               <Stack />
             </div>

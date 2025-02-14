@@ -15,13 +15,13 @@ export default function Experiences({ sectionRef }: ExperiencesProps) {
     return (
         <div className="w-full" id="experiences" ref={sectionRef}>
             <h3 className='text-3xl mb-4 mt-16 uppercase font-semibold'>Expériences</h3>
-            <div className="overflow-x-auto pb-6 w-full flex flex-col">
+            <div className="overflow-x-auto overflow-y-auto pb-6 w-full flex flex-col">
                 <div className="flex w-full items-center gap-2">
                     <div className='w-full pl-[104px] lg:pl-28 pr-16 flex items-center'>
                         {months.map((month, index) => (<p  key={index} className='text-xs min-w-[60.69px]'>{month}</p>))}
                     </div>
                     <div className='flex h-full flex-col invisible justify-center'>
-                        <p className='text-[0.6rem]'>École</p>
+                        <p className='text-[0.6rem]'>Étude</p>
                         <p className='text-[0.6rem]'>Stage</p>
                         <p className='text-[0.6rem]'>Pro.</p>
                     </div>
@@ -31,9 +31,9 @@ export default function Experiences({ sectionRef }: ExperiencesProps) {
                         <div key={index} className="flex items-center gap-2">
                             <p className='w-12'>{year}</p>
                             <div className='flex h-full flex-col justify-center items-end'>
-                                <p className='text-[0.6rem]'>École</p>
+                                <p className='text-[0.6rem]'>Étude</p>
                                 <p className='text-[0.6rem]'>Stage</p>
-                                <p className='text-[0.6rem]'>Pro</p>
+                                <p className='text-[0.6rem]'>Pro.</p>
                             </div>
                             <div className="">
                                 <div className='flex flex-col overflow-x-auto gap-1'> {/* Set the width and overflow */}

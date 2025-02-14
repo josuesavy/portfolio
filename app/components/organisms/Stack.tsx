@@ -1,5 +1,5 @@
 import React from "react";
-import { Symfony, Codeigniter, Laravel, NextJS, NodeJS, ReactJS, Tailwind } from "../atoms/logos";
+import { Symfony, Codeigniter, Laravel, NextJS, NodeJS, ReactJS, Angular, Java, CSharp, Python, Cpp } from "../atoms/logos";
 import Separator from "../atoms/Separator";
 import { StackData } from "@/app/data/stack";
 

@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Josué Savy - Développeur Full-Stack',
-  description: 'Ingénieur diplômé de l\'ENIB, Josué travaille chez ALTEN depuis septembre 2022 en tant qu\'ingénieur d\'applications, se spécialisant dans le développement Full-Stack.',
+  title: 'Josué Savy - Ingénieur Système',
+  description: 'Ingénieur diplômé de l\'ENIB, je suis passionné par l\'innovation. Spécialisé dans les technologies modernes, je crée des applications performantes et évolutives. Découvrez mes projets, mon parcours et mes compétences.',
 }
 
 export default function RootLayout({
