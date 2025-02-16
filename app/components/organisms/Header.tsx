@@ -22,7 +22,7 @@ export function Header({ handleTabClick, tab }: Props) {
                 {/* <SunIcon /> */}
                 <div className="relative sm:hidden">
                     <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h14M5 12h14M5 7h14" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 17h14M5 12h14M5 7h14" /></svg>
                     </div>
                     {isOpen && <div className="rounded-md absolute  p-6 bg-black shadow-[0_0_25px_2px_rgba(255,255,255,0.1)] right-0">
                         <ul className='h-full flex flex-col gap-5'>

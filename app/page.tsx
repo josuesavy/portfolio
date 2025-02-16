@@ -21,6 +21,10 @@ export default function Home() {
     window.scrollTo({ top: sectionPosition, behavior: 'smooth' });
   };
 
+  const handleProjectClick = (index: number) => {
+    localStorage.setItem('project_selected', JSON.stringify(index));
+  };
+
   function getYear() {
     return new Date().getFullYear();
   }
@@ -39,12 +43,12 @@ export default function Home() {
               <p className='text-4xl mt-4 uppercase font-semibold'>Bienvenue sur <span className='text-orange'>mon portfolio</span></p>
               <Separator />
               <p className='mt-4 mb-16 sm:text-base text-sm '>
-              Ingénieur Généraliste Système diplômé, avec deux ans d&apos;expérience en développement full stack chez Airbus Defense and Space, j&apos;interviens sur une large gamme de projets techniques en alliant expertise logicielle et vision transverse des technologies, infrastructures et processus industriels. Passionné par l&apos;innovation et la transformation digitale, j’adopte une approche rigoureuse, agile et collaborative. Curieux et en constante quête d’apprentissage, je cherche à relever de nouveaux défis et à développer en continu mes compétences pour concevoir des solutions toujours plus performantes.
+                Ingénieur Généraliste Système diplômé, avec deux ans d&apos;expérience en développement full stack chez Airbus Defense and Space, j&apos;interviens sur une large gamme de projets techniques en alliant expertise logicielle et vision transverse des technologies, infrastructures et processus industriels. Passionné par l&apos;innovation et la transformation digitale, j’adopte une approche rigoureuse, agile et collaborative. Curieux et en constante quête d’apprentissage, je cherche à relever de nouveaux défis et à développer en continu mes compétences pour concevoir des solutions toujours plus performantes.
               </p>
               <Stack />
             </div>
             <Experiences sectionRef={sectionRefs[1]} />
-            <Projects sectionRef={sectionRefs[2]} />
+            <Projects sectionRef={sectionRefs[2]} handleProjectClick={handleProjectClick} />
           </div>
         </div>
       </section>

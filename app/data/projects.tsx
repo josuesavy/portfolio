@@ -59,7 +59,7 @@ export const projects: ProjectsDTO[] = [
         year: 2022,
         title: "Bot Dofus",
         description: "Logiciel permettant d’automatiser toutes les tâches répétitive dans un jeu, sans prise de tête et tout en étant polyvalent et adapté à des situations aussi diverses que variées.",
-        href: "https://google.fr",
+        href: "/gallery",
         technos: [
             {color: CPP_COLOR, label: CPP_NAME},
             {color: LUA_COLOR, label: LUA_NAME},
@@ -74,7 +74,7 @@ export const projects: ProjectsDTO[] = [
         year: 2017,
         title: "Arsenic",
         description: "Outils permettant de créer un itinéraire sur une carte afin que le bot puisse se déplacer et exécuter des actions automatiquement dans le jeu, en générant un fichier en langage Lua lisible par le bot.",
-        href: "https://google.fr",
+        href: "/gallery",
         technos: [
             {color: CPP_COLOR, label: CPP_NAME},
             {color: LUA_COLOR, label: LUA_NAME},
@@ -86,7 +86,7 @@ export const projects: ProjectsDTO[] = [
         year: 2015,
         title: "Easy Pro Update",
         description: "Utilitaire qui a pour but de mettre à jour vos application sur plusieurs plateformes (C#, VB.NET..) mais il peut être utilisé sur plusieurs type d'application (WindowsForm, WPF, Console..).",
-        href: "https://google.fr",
+        href: "/gallery",
         technos: [
             {color: CSHARP_COLOR, label: CSHARP_NAME},
             {color: XML_COLOR, label: XML_NAME},
