@@ -39,6 +39,14 @@ export const images = [
                 original: "/Screenshot-from-2017-05-28-13-17-02.png",
                 thumbnail: "/Screenshot-from-2017-05-28-13-17-02.png",
             },
+            {
+                original: "/Screenshot-from-2017-05-28-13-18-51.png",
+                thumbnail: "/Screenshot-from-2017-05-28-13-18-51.png",
+            },
+            {
+                original: "/Screenshot-from-2017-05-28-13-19-58.png",
+                thumbnail: "/Screenshot-from-2017-05-28-13-19-58.png",
+            },
         ]
     },
     {
