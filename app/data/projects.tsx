@@ -46,7 +46,7 @@ export const projects: ProjectsDTO[] = [
         year: 2024,
         title: "Portfolio",
         description: "Site web présentant les compétences, les projets et l’expérience d’un développeur. Il sert à montrer concrètement son savoir-faire à des recruteurs ou clients potentiels.",
-        href: "https://josuesavy.com",
+        href: "https://stackover.fr",
         technos: [
             {color: HTML_COLOR, label: HTML_NAME},
             {color: REACT_COLOR, label: REACT_NAME},

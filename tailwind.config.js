@@ -27,7 +27,10 @@ module.exports = {
                     "light": '#F8937C',
                 },
                 red: {
-                    "alten": '#D52B1E',
+                    "freelance": '#D52B1E',
+                },
+                green: {
+                    "alten": '#00A97F',
                 },
                 blue: {
                     'multitel': '#00EAFF',

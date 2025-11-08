@@ -7,10 +7,10 @@ function calculateAge() {
 
 export const sidebarData = {
     name: 'Josué Savy',
-    job: 'Ingénieur Système',
+    job: 'Ingénieur Full-Stack',
     age: `${calculateAge()} ans`,
-    location: '31500 Toulouse, France',
-    enterprise: 'Alten',
+    location: '31000 Toulouse, France',
+    enterprise: 'Freelance',
     school: 'ENI Brest',
     languages: ['🇫🇷 Français (Natale)', '🇬🇧 Anglais B2 (Cambridge)'],
     links: [

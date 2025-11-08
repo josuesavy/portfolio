@@ -7,9 +7,10 @@ interface ExperiencesProps {
 export default function Experiences({ sectionRef }: ExperiencesProps) {
 
     // 0 rien
-    // 1 Alten
-    // 2 ENIB
-    // 3 Multitel
+    // 1 ENIB
+    // 2 Multitel
+    // 3 Alten
+    // 4 Freelance
 
    
     return (
@@ -41,7 +42,7 @@ export default function Experiences({ sectionRef }: ExperiencesProps) {
                                         {theData[index]?.content[0].map((data, idx2) => (
                                             <div
                                                 key={`year-${year}-week-1-${idx2}`}
-                                                className={`${data === 2 ? "bg-blue-enib" : data === 0 && "bg-[#202732]"} rounded-sm`}
+                                                className={`${data === 0 ? "bg-[#202732]" : data === 1 ? "bg-blue-enib" : ""} rounded-sm`}
                                             />
                                         ))}
                                     </div>
@@ -49,7 +50,7 @@ export default function Experiences({ sectionRef }: ExperiencesProps) {
                                         {theData[index]?.content[1].map((data, idx3) => (
                                             <div
                                                 key={`year-${year}-week-2-${idx3}`}
-                                                className={`${data === 0 ? "bg-[#202732]" : data === 3 && "bg-blue-multitel"} rounded-sm`}
+                                                className={`${data === 0 ? "bg-[#202732]" : data === 2 ? "bg-blue-multitel" : ""} rounded-sm`}
                                             />
                                         ))}
 
@@ -58,7 +59,7 @@ export default function Experiences({ sectionRef }: ExperiencesProps) {
                                         {theData[index]?.content[2].map((data, idx3) => (
                                             <div
                                                 key={`year-${year}-week-2-${idx3}`}
-                                                className={`${data === 0 ? "bg-[#202732]" : data === 1 ? "bg-red-alten" : data === 3 && "bg-blue-multitel"} rounded-sm`}
+                                                className={`${data === 0 ? "bg-[#202732]" : data === 2 ? "bg-blue-multitel" : data === 3 ? "bg-green-alten" : data === 4 ? "bg-red-freelance" : ""} rounded-sm`}
                                             />
                                         ))}
 
