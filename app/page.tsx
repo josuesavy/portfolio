@@ -43,7 +43,7 @@ export default function Home() {
               <p className='text-4xl mt-4 uppercase font-semibold'>Bienvenue sur <span className='text-orange'>mon portfolio</span></p>
               <Separator />
               <p className='mt-4 mb-4 sm:text-base text-sm text-justify'>
-                J'accompagne plusieurs clients dans la conception, le développement et l&apos;intégration de solutions web et cloud modernes. Mon expertise couvre l&apos;ensemble du cycle de vie applicatif, de la phase de conception technique à l&apos;automatisation des déploiements et à la maintenance continue. J&apos;interviens sur différentes architectures basées sur des technologies modernes, en combinant performance, sécurité et évolutivité.
+                J&apos;accompagne plusieurs clients dans la conception, le développement et l&apos;intégration de solutions web et cloud modernes. Mon expertise couvre l&apos;ensemble du cycle de vie applicatif, de la phase de conception technique à l&apos;automatisation des déploiements et à la maintenance continue. J&apos;interviens sur différentes architectures basées sur des technologies modernes, en combinant performance, sécurité et évolutivité.
               </p>
               <p className='mt-4 mb-16 sm:text-base text-sm text-justify'>
                 Mon approche se distingue par une vision à la fois technique et intégrative : concevoir des solutions robustes, automatisées et centrées sur l&apos;efficacité, tout en favorisant la pérennité et la simplicité de maintenance pour mes clients.
